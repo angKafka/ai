@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-indigo-600 {
+  --tw-bg-opacity: 1;
+  background: linear-gradient(135deg, #024cbb 12%, #006 47%, #006 63%, #024cbb 88%) !important;
+}
+
+.text-ot{
+  background: linear-gradient(135deg,#024cbb 12%,#006 47%,#006 63%,#024cbb 88%);
+  -webkit-background-clip: text;
+  background-size: 200%;
+  background-position: center left;
+  background-clip: text;
+  color: transparent
+}
